@@ -112,12 +112,8 @@
    before first paint, including modules inserted after page load. */
 .sidebar-inner{display:flex;flex-direction:column}
 .sidebar-inner>.revenue_unit_wrap{order:1;width:100%;min-width:0}
-/* Platform logos are loading placeholders, not served advertisements.
-   Keep pending slots measurable so AdSense can request responsive ads. */
-.revenue_unit_wrap .revenue_unit_item:not(.revenue_preview){background-image:none!important}
+/* Preserve Tistory placeholders and previews while ads are pending.
+   Initially hidden slots may never request an ad. Collapse only confirmed
+   unfilled slots; leave AdSense-optimized slots visible. */
 ins.adsbygoogle[data-ad-status="unfilled"]{display:none!important;height:0}
-.revenue_unit_wrap:has(>.revenue_unit_item.adsense ins.adsbygoogle[data-ad-status="unfilled"]):not(:has(ins.adsbygoogle:not([data-ad-status="unfilled"]),>.revenue_unit_item:not(.adsense))){display:none}
-/* Keep the slot width available for responsive ad sizing, but do not open
-   a provisional 600px block while the async fill decision is pending. */
-.revenue_unit_wrap:has(>.revenue_unit_item.adsense):not(:has(>.revenue_unit_item:not(.adsense),.revenue_preview,ins.adsbygoogle[data-ad-status="filled"],ins.adsbygoogle[data-ad-status="unfill-optimized"])){max-height:0;margin-top:0;margin-bottom:0;overflow:hidden}
-.revenue_unit_wrap>.revenue_unit_item.adsense:not(.revenue_preview):not(:has(ins.adsbygoogle[data-ad-status="filled"],ins.adsbygoogle[data-ad-status="unfill-optimized"])){max-height:0;min-height:0;overflow:hidden}
+.revenue_unit_wrap:has(>.revenue_unit_item.adsense ins.adsbygoogle[data-ad-status="unfilled"]):not(:has(.revenue_preview,ins.adsbygoogle:not([data-ad-status="unfilled"]),>.revenue_unit_item:not(.adsense))){display:none}
