@@ -1,0 +1,47 @@
+bit-theme Footer Credit License 1.0
+
+Copyright (c) 2026 jbeat
+Theme: bit-theme
+Creator: by jbeat
+
+1. 허용 사항
+jbeat이 직접 작성한 bit-theme의 스킨 코드와 문서는 누구나 무료로 사용,
+복제, 수정, 재배포할 수 있습니다. 개인적 이용, 상업적 이용 및 판매를
+모두 허용하며, 수정한 코드의 공개나 별도의 이용 허가는 필요하지 않습니다.
+
+2. 하단 제작자 표시 유지
+위 이용허락의 조건은 테마 하단 카피라이트 영역에 기본 포함된 다음
+제작자 표시를 그대로 유지하는 것입니다.
+
+  bit-theme by jbeat
+
+원본과 수정본, 재배포본 모두 위 문구를 삭제하거나 변경해서는 안 됩니다.
+해당 표시를 숨기거나 화면에서 읽을 수 없도록 처리해서도 안 됩니다.
+표시는 테마 하단 카피라이트 영역에서 정상적으로 읽을 수 있어야 합니다.
+이 표시를 유지하는 범위에서 테마의 나머지 부분은 자유롭게 수정할 수 있습니다.
+별도의 출처 게시글 작성, 제작자 사이트 링크, 이용 신고 또는 수정본 공개는
+요구하지 않습니다. 블로그 운영자의 자체 카피라이트 문구는 수정할 수 있습니다.
+
+3. 외부 자산
+이 이용허락은 jbeat이 직접 작성한 부분에 적용됩니다. 포함된 외부 자산은
+각각의 라이선스를 따르며, 이 문서는 그 조건을 변경하지 않습니다.
+
+- Pretendard Variable: SIL Open Font License 1.1
+  images/pretendard-OFL.txt
+- JetBrains Mono: SIL Open Font License 1.1
+  images/jetbrains-mono-OFL.txt
+- highlight.js: BSD 3-Clause
+  images/highlight-LICENSE.txt
+- Twemoji graphics: Creative Commons Attribution 4.0 International
+  images/twemoji-LICENSE-GRAPHICS.txt
+
+외부 자산의 저작권 표시, 출처 및 이용 조건은 해당 라이선스와
+images/third-party-notices.txt를 참조하세요. 블로그 게시글, 댓글과
+티스토리 플랫폼의 권리는 각 권리자에게 있습니다.
+
+4. 보증 및 책임
+이 스킨은 현 상태 그대로 제공됩니다. 법이 허용하는 범위에서 제작자는
+특정 목적에 대한 적합성이나 오류 없는 동작을 보증하지 않으며,
+사용으로 발생한 손해에 대해 책임을 지지 않습니다.
+
+이 문서는 bit-theme를 위한 자체 이용허락입니다.
