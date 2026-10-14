@@ -1,16 +1,16 @@
 # bit-theme
 
-티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.2**
+티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.3**
 
 좌측 사이드바, 라이트·다크 테마, 반응형 레이아웃과 본문 코드·목차를 제공합니다.
 
-[최신 버전 다운로드](https://github.com/jbeat30/Bit-Theme/releases/latest) · [v1.0.2 설치용 ZIP](https://github.com/jbeat30/Bit-Theme/releases/download/v1.0.2/bit-theme-v1.0.2.zip) · [변경 기록](CHANGELOG.md)
+[최신 버전 다운로드](https://github.com/jbeat30/Bit-Theme/releases/latest) · [변경 기록](CHANGELOG.md)
 
 ## 다운로드
 
-Releases 페이지에서 **Assets → bit-theme-v1.0.2.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
+Releases 페이지에서 **Assets → bit-theme-v1.0.3.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
 
-릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.2.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
+릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.3.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
 
 ## 설치
 
@@ -33,7 +33,7 @@ Releases 페이지에서 **Assets → bit-theme-v1.0.2.zip**을 내려받으세�
 
 사이드바는 수익 설정에서 광고를 켠 뒤 **꾸미기 → 사이드바**에서 광고 모듈이 배치되어 있는지 확인하세요. 모듈의 관리 화면 순서와 관계없이 광고는 프로필·검색·카테고리·방문자·인기글 아래에 표시됩니다. 데스크톱 내부 폭은 300px입니다. 더 큰 고정 폭 광고 대신 300px 이하 또는 반응형 단위를 사용하세요. 800px 이하에서는 사이드바가 ‘프로필·메뉴’를 열 때만 보이는 구조이므로, 모바일의 상시 광고 위치로 사용하지 마세요.
 
-실제 광고 응답 전에는 티스토리의 광고 서비스 로고 배경을 표시하지 않습니다. AdSense가 `data-ad-status=unfilled`로 판정한 슬롯과 빈 광고 래퍼는 접으며, 게재 판정 전에는 래퍼의 높이와 여백을 0으로 유지해 임시 광고 블록이 나타나지 않게 하고, filled 또는 unfill-optimized 응답이 오면 공간을 엽니다. 반응형 계산에 필요한 슬롯의 폭과 원본 광고 코드는 유지하며, 시간 제한으로 광고를 제거하지 않습니다. 광고 차단·미승인·게재 제한·네트워크 오류로 광고가 채워지지 않는 문제는 스킨만으로 해결할 수 없습니다.
+광고 요청 전에는 티스토리가 지정한 광고 영역의 크기와 로고 배경을 유지하며, 광고 설정 미리보기의 배경도 그대로 표시합니다. AdSense가 `data-ad-status=unfilled`로 판정한 슬롯과 미게재 슬롯만 있는 래퍼는 접습니다. 응답 대기·filled·unfill-optimized 슬롯과 미리보기·다른 광고 서비스가 함께 있는 래퍼는 유지합니다. 처음부터 높이 0으로 숨기면 광고 요청 자체가 실행되지 않을 수 있습니다. 광고 차단·미승인·게재 제한·네트워크 오류로 광고가 채워지지 않는 문제는 스킨만으로 해결할 수 없습니다. [Google 공식 안내](https://support.google.com/adsense/answer/10762946?hl=ko)를 참고하세요.
 
 스킨 교체 후 광고 설정과 사이드바 모듈 배치를 다시 확인하세요. 실제 블로그의 홈·카테고리·검색·개별 글을 PC와 모바일에서 확인해야 합니다. 광고 차단을 끈 상태에서 각 위치에 광고 코드가 삽입되는지, 네트워크 요청이 실패하는지, 애드센스 승인·게재 제한 상태가 어떤지 확인하세요. 코드가 삽입되어도 광고 채움은 보장되지 않습니다. 티스토리 자체 광고와 본인 계정 광고는 광고 코드의 게시자 ID로 구분해야 합니다.
 
@@ -48,3 +48,4 @@ Releases 페이지에서 **Assets → bit-theme-v1.0.2.zip**을 내려받으세�
 외부 자산에는 각각의 라이선스가 적용됩니다. Pretendard·JetBrains Mono는 SIL OFL 1.1, highlight.js는 BSD 3-Clause, Twemoji는 CC BY 4.0입니다. 외부 자산의 라이선스와 고지를 유지하세요.
 
 문제 신고: https://github.com/jbeat30/Bit-Theme/issues
+
