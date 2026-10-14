@@ -48,4 +48,3 @@ Releases 페이지에서 **Assets → bit-theme-v1.0.3.zip**을 내려받으세�
 외부 자산에는 각각의 라이선스가 적용됩니다. Pretendard·JetBrains Mono는 SIL OFL 1.1, highlight.js는 BSD 3-Clause, Twemoji는 CC BY 4.0입니다. 외부 자산의 라이선스와 고지를 유지하세요.
 
 문제 신고: https://github.com/jbeat30/Bit-Theme/issues
-
