@@ -103,3 +103,8 @@
 @media(prefers-reduced-motion:reduce){.back-top{transition:none;transform:none}}
 
 .footer{flex-wrap:wrap}.theme-credit{white-space:nowrap;color:inherit;text-decoration:none}
+
+/* Keep desktop sidebar ads at their natural size without cropping. */
+@media(min-width:801px){.layout{grid-template-columns:342px minmax(0,1fr)}.sidebar{overflow:visible}}
+.list-revenue{min-width:0}
+.list-revenue:empty{display:none}

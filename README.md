@@ -1,16 +1,16 @@
 # bit-theme
 
-티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.0**
+티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.1**
 
 좌측 사이드바, 라이트·다크 테마, 반응형 레이아웃과 본문 코드·목차를 제공합니다.
 
-[최신 버전 다운로드](https://github.com/jbeat30/Bit-Theme/releases/latest) · [v1.0.0 설치용 ZIP](https://github.com/jbeat30/Bit-Theme/releases/download/v1.0.0/bit-theme-v1.0.0.zip) · [변경 기록](CHANGELOG.md)
+[최신 버전 다운로드](https://github.com/jbeat30/Bit-Theme/releases/latest) · [v1.0.1 설치용 ZIP](https://github.com/jbeat30/Bit-Theme/releases/download/v1.0.1/bit-theme-v1.0.1.zip) · [변경 기록](CHANGELOG.md)
 
 ## 다운로드
 
-Releases 페이지에서 **Assets → bit-theme-v1.0.0.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
+Releases 페이지에서 **Assets → bit-theme-v1.0.1.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
 
-릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.0.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
+릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.1.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
 
 ## 설치
 
@@ -23,6 +23,16 @@ Releases 페이지에서 **Assets → bit-theme-v1.0.0.zip**을 내려받으세�
 
 하단 카피라이트 영역에는 `bit-theme by jbeat` 제작자 표시가 기본 포함되어 있으며, 클릭하면 GitHub 저장소가 새 탭에서 열립니다. 이 문구를 삭제·변경·숨김 처리하지 않고 유지하면 나머지 부분은 자유롭게 이용·수정할 수 있습니다.
 
+## 광고 설정 및 확인
+
+목록 상단·하단 광고는 `skin.html`의 `s_list` 안에 있는 수익 치환자를 사용합니다. 적용 후 **수익 → 애드센스 관리**에서 원하는 위치를 켜고 변경사항을 저장하세요. 본문 상단·하단은 티스토리가 본문에 삽입하며, 테마는 두 위치 중 하나만 선택하거나 광고를 직접 초기화하지 않습니다.
+
+사이드바는 수익 설정에서 광고를 켠 뒤 **꾸미기 → 사이드바**에서 광고 모듈이 배치되어 있는지 확인하세요. 데스크톱 내부 폭은 300px입니다. 더 큰 고정 폭 광고 대신 300px 이하 또는 반응형 단위를 사용하세요. 800px 이하에서는 사이드바가 ‘프로필·메뉴’를 열 때만 보이는 구조이므로, 모바일의 상시 광고 위치로 사용하지 마세요.
+
+스킨 교체 후 광고 설정과 사이드바 모듈 배치를 다시 확인하세요. 실제 블로그의 홈·카테고리·검색·개별 글을 PC와 모바일에서 확인해야 합니다. 광고 차단을 끈 상태에서 각 위치에 광고 코드가 삽입되는지, 네트워크 요청이 실패하는지, 애드센스 승인·게재 제한 상태가 어떤지 확인하세요. 코드가 삽입되어도 광고 채움은 보장되지 않습니다. 티스토리 자체 광고와 본인 계정 광고는 광고 코드의 게시자 ID로 구분해야 합니다.
+
+공식 안내: [애드센스 광고 설정하기](https://notice.tistory.com/2567).
+
 ## 라이선스
 
 직접 작성한 스킨 코드와 문서는 [bit-theme Footer Credit License 1.0](LICENSE)을 따릅니다.
@@ -32,3 +42,4 @@ Releases 페이지에서 **Assets → bit-theme-v1.0.0.zip**을 내려받으세�
 외부 자산에는 각각의 라이선스가 적용됩니다. Pretendard·JetBrains Mono는 SIL OFL 1.1, highlight.js는 BSD 3-Clause, Twemoji는 CC BY 4.0입니다. 외부 자산의 라이선스와 고지를 유지하세요.
 
 문제 신고: https://github.com/jbeat30/Bit-Theme/issues
+
