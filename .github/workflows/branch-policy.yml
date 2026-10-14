@@ -47,8 +47,8 @@ jobs:
 
           # ── 1) 브랜치 조합 ──────────────────────────────
           if [[ "$BASE_REF" == "$DEFAULT_BRANCH" ]]; then
-            [[ "$HEAD_REF" =~ ^(release|hotfix)/${VER}$ ]] \
-              || errors+=("${DEFAULT_BRANCH} 에는 release/vX.Y.Z 또는 hotfix/vX.Y.Z 만 PR 할 수 있습니다.")
+            [[ "$HEAD_REF" =~ ^release/${VER}$ ]] \
+              || errors+=("${DEFAULT_BRANCH} 에는 release/vX.Y.Z 만 PR 할 수 있습니다.")
           elif [[ "$BASE_REF" == release/* ]]; then
             if [[ ! "$BASE_REF" =~ ^release/${VER}$ ]]; then
               errors+=("release 브랜치 이름은 release/vX.Y.Z 형식이어야 합니다. (현재: ${BASE_REF})")
@@ -98,7 +98,7 @@ jobs:
             echo "허용되는 PR 방향"
             echo "  작업 브랜치(feat/*, fix/* ...) → feature/vX.Y.Z"
             echo "  feature/vX.Y.Z                → release/vX.Y.Z (같은 버전)"
-            echo "  release/vX.Y.Z, hotfix/vX.Y.Z → ${DEFAULT_BRANCH}"
+            echo "  release/vX.Y.Z              → ${DEFAULT_BRANCH}"
             echo "  ${DEFAULT_BRANCH} (백머지)            → feature/vX.Y.Z, release/vX.Y.Z"
             echo "규칙: https://github.com/JooJae-Lab/.github/blob/main/docs/branch-strategy.md"
             exit 1
