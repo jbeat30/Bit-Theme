@@ -1,6 +1,6 @@
 # bit-theme
 
-티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.4**
+티스토리 개발 블로그 스킨 · **by jbeat** · **v1.0.5**
 
 좌측 사이드바, 라이트·다크 테마, 반응형 레이아웃과 본문 코드·목차를 제공합니다.
 
@@ -8,9 +8,9 @@
 
 ## 다운로드
 
-Releases 페이지에서 **Assets → bit-theme-v1.0.4.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
+Releases 페이지에서 **Assets → bit-theme-v1.0.5.zip**을 내려받으세요. 다른 버전에서는 해당 버전의 bit-theme-vX.Y.Z.zip을 선택합니다. 자동 생성되는 Source code ZIP은 개발용 원본이며 설치용 패키지와 구성이 다릅니다.
 
-릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.4.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
+릴리스의 SHA256SUMS.txt로 파일 무결성을 확인할 수 있습니다. Windows에서는 `Get-FileHash .\bit-theme-v1.0.5.zip -Algorithm SHA256` 명령의 결과를 비교하세요.
 
 ## 설치
 
